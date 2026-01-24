@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Phone } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import tantoLogo from '@/assets/tanto-logo.jpg';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -21,13 +22,12 @@ const Header = () => {
       <nav className="container mx-auto px-4 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3">
-            <div className="flex flex-col">
-              <span className="font-serif text-2xl font-bold text-primary">
-                Tanto<span className="text-gold">suziema</span>
-              </span>
-              <span className="text-xs text-muted-foreground tracking-wider">Mind Your Money</span>
-            </div>
+          <Link to="/" className="flex items-center">
+            <img 
+              src={tantoLogo} 
+              alt="Tantosuziema - Mind Your Money" 
+              className="h-12 w-auto object-contain"
+            />
           </Link>
 
           {/* Desktop Navigation */}
