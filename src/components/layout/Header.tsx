@@ -43,18 +43,20 @@ const Header = () => {
   const isServicesActive = location.pathname === '/services';
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 bg-card/95 backdrop-blur-md border-b border-border transition-shadow duration-300 ${isScrolled ? 'shadow-lg shadow-primary/10' : ''}`}>
+    <header className={`fixed top-0 left-0 right-0 z-50 bg-gold backdrop-blur-md border-b border-gold/80 transition-shadow duration-300 ${isScrolled ? 'shadow-lg shadow-primary/20' : ''}`}>
       <nav className="container mx-auto px-4 lg:px-8">
-        <div className="flex h-20 items-center justify-between">
+        <div className="flex h-24 items-center justify-between">
           {/* Left side: Logo + Navigation */}
           <div className="flex items-center gap-8">
             {/* Logo */}
             <Link to="/" className="flex items-center">
-              <img 
-                src={tantoLogo} 
-                alt="Tantosuziema - Mind Your Money" 
-                className="h-14 w-auto object-contain"
-              />
+              <div className="bg-gold p-2 rounded-lg">
+                <img 
+                  src={tantoLogo} 
+                  alt="Tantosuziema - Mind Your Money" 
+                  className="h-16 w-auto object-contain"
+                />
+              </div>
             </Link>
 
             {/* Desktop Navigation */}
