@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import tantoLogo from '@/assets/tanto-logo.jpg';
+import tantoLogo from '@/assets/tanto-logo-cropped.png';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -31,30 +31,32 @@ const Header = () => {
     <header className={`fixed top-0 left-0 right-0 z-50 bg-card/95 backdrop-blur-md border-b border-border transition-shadow duration-300 ${isScrolled ? 'shadow-lg shadow-primary/10' : ''}`}>
       <nav className="container mx-auto px-4 lg:px-8">
         <div className="flex h-20 items-center justify-between">
-          {/* Logo */}
-          <Link to="/" className="flex items-center">
-            <img 
-              src={tantoLogo} 
-              alt="Tantosuziema - Mind Your Money" 
-              className="h-12 w-auto object-contain"
-            />
-          </Link>
+          {/* Left side: Logo + Navigation */}
+          <div className="flex items-center gap-8">
+            {/* Logo */}
+            <Link to="/" className="flex items-center">
+              <img 
+                src={tantoLogo} 
+                alt="Tantosuziema - Mind Your Money" 
+                className="h-14 w-auto object-contain"
+              />
+            </Link>
 
-          {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-8">
-            {navigation.map((item) => (
-              <Link
-                key={item.name}
-                to={item.href}
-                className={`text-sm font-medium transition-colors hover:text-gold ${
-                  location.pathname === item.href
-                    ? 'text-gold'
-                    : 'text-foreground'
-                }`}
-              >
-                {item.name}
-              </Link>
-            ))}
+            {/* Desktop Navigation */}
+            <div className="hidden lg:flex items-center gap-2">
+              {navigation.map((item) => (
+                <Button
+                  key={item.name}
+                  variant={location.pathname === item.href ? 'default' : 'ghost'}
+                  size="sm"
+                  asChild
+                >
+                  <Link to={item.href}>
+                    {item.name}
+                  </Link>
+                </Button>
+              ))}
+            </div>
           </div>
 
           {/* CTA Buttons */}
