@@ -63,8 +63,9 @@ const Header = () => {
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center gap-2">
               <Button
-                variant={location.pathname === '/' ? 'default' : 'ghost'}
+                variant="navy"
                 size="sm"
+                className="text-gold shadow-[inset_0_1px_0_rgba(255,255,255,0.25),inset_0_-2px_4px_rgba(0,0,0,0.3),0_2px_4px_rgba(0,0,0,0.25)] border border-navy-light/40 hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.3),inset_0_-2px_4px_rgba(0,0,0,0.35),0_3px_6px_rgba(0,0,0,0.3)]"
                 asChild
               >
                 <Link to="/">Home</Link>
@@ -74,9 +75,9 @@ const Header = () => {
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                   <Button
-                    variant={isServicesActive ? 'default' : 'ghost'}
+                    variant="navy"
                     size="sm"
-                    className="gap-1"
+                    className="gap-1 text-gold shadow-[inset_0_1px_0_rgba(255,255,255,0.25),inset_0_-2px_4px_rgba(0,0,0,0.3),0_2px_4px_rgba(0,0,0,0.25)] border border-navy-light/40 hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.3),inset_0_-2px_4px_rgba(0,0,0,0.35),0_3px_6px_rgba(0,0,0,0.3)]"
                   >
                     Services
                     <ChevronDown className="h-4 w-4" />
@@ -102,8 +103,9 @@ const Header = () => {
               {navigation.slice(1).map((item) => (
                 <Button
                   key={item.name}
-                  variant={location.pathname === item.href ? 'default' : 'ghost'}
+                  variant="navy"
                   size="sm"
+                  className="text-gold shadow-[inset_0_1px_0_rgba(255,255,255,0.25),inset_0_-2px_4px_rgba(0,0,0,0.3),0_2px_4px_rgba(0,0,0,0.25)] border border-navy-light/40 hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.3),inset_0_-2px_4px_rgba(0,0,0,0.35),0_3px_6px_rgba(0,0,0,0.3)]"
                   asChild
                 >
                   <Link to={item.href}>
@@ -116,10 +118,10 @@ const Header = () => {
 
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center gap-4">
-            <Button variant="outline" size="sm" asChild>
+            <Button variant="navy" size="sm" className="text-gold shadow-[inset_0_1px_0_rgba(255,255,255,0.25),inset_0_-2px_4px_rgba(0,0,0,0.3),0_2px_4px_rgba(0,0,0,0.25)] border border-navy-light/40 hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.3),inset_0_-2px_4px_rgba(0,0,0,0.35),0_3px_6px_rgba(0,0,0,0.3)]" asChild>
               <Link to="/booking">Book Session</Link>
             </Button>
-            <Button variant="gold" size="sm" asChild>
+            <Button variant="navy" size="sm" className="text-gold shadow-[inset_0_1px_0_rgba(255,255,255,0.25),inset_0_-2px_4px_rgba(0,0,0,0.3),0_2px_4px_rgba(0,0,0,0.25)] border border-navy-light/40 hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.3),inset_0_-2px_4px_rgba(0,0,0,0.35),0_3px_6px_rgba(0,0,0,0.3)]" asChild>
               <Link to="/masterclass">Register Masterclass</Link>
             </Button>
           </div>
