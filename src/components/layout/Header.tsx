@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { CartDrawer } from '@/components/shop/CartDrawer';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -16,6 +17,7 @@ const navigation = [
   { name: 'About', href: '/about' },
   { name: 'Testimonials', href: '/testimonials' },
   { name: 'Blog', href: '/blog' },
+  { name: 'Shop', href: '/shop' },
   { name: 'Contact', href: '/contact' },
 ];
 
@@ -115,6 +117,7 @@ const Header = () => {
             <Button variant="navy" size="sm" className="text-gold" asChild>
               <Link to="/masterclass">Register Masterclass</Link>
             </Button>
+            <CartDrawer />
           </div>
 
           {/* Mobile menu button */}
