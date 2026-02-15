@@ -62,23 +62,14 @@ const Header = () => {
 
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center gap-2">
-              <Button
-                variant="navy"
-                size="sm"
-                className="text-gold shadow-[inset_0_1px_0_rgba(255,255,255,0.25),inset_0_-2px_4px_rgba(0,0,0,0.3),0_2px_4px_rgba(0,0,0,0.25)] border border-navy-light/40 hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.3),inset_0_-2px_4px_rgba(0,0,0,0.35),0_3px_6px_rgba(0,0,0,0.3)]"
-                asChild
-              >
+              <Button variant="navy" size="sm" className="text-gold" asChild>
                 <Link to="/">Home</Link>
               </Button>
 
               {/* Services Dropdown */}
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                  <Button
-                    variant="navy"
-                    size="sm"
-                    className="gap-1 text-gold shadow-[inset_0_1px_0_rgba(255,255,255,0.25),inset_0_-2px_4px_rgba(0,0,0,0.3),0_2px_4px_rgba(0,0,0,0.25)] border border-navy-light/40 hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.3),inset_0_-2px_4px_rgba(0,0,0,0.35),0_3px_6px_rgba(0,0,0,0.3)]"
-                  >
+                   <Button variant="navy" size="sm" className="gap-1 text-gold">
                     Services
                     <ChevronDown className="h-4 w-4" />
                   </Button>
@@ -105,7 +96,7 @@ const Header = () => {
                   key={item.name}
                   variant="navy"
                   size="sm"
-                  className="text-gold shadow-[inset_0_1px_0_rgba(255,255,255,0.25),inset_0_-2px_4px_rgba(0,0,0,0.3),0_2px_4px_rgba(0,0,0,0.25)] border border-navy-light/40 hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.3),inset_0_-2px_4px_rgba(0,0,0,0.35),0_3px_6px_rgba(0,0,0,0.3)]"
+                  className="text-gold"
                   asChild
                 >
                   <Link to={item.href}>
@@ -118,10 +109,10 @@ const Header = () => {
 
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center gap-4">
-            <Button variant="navy" size="sm" className="text-gold shadow-[inset_0_1px_0_rgba(255,255,255,0.25),inset_0_-2px_4px_rgba(0,0,0,0.3),0_2px_4px_rgba(0,0,0,0.25)] border border-navy-light/40 hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.3),inset_0_-2px_4px_rgba(0,0,0,0.35),0_3px_6px_rgba(0,0,0,0.3)]" asChild>
+            <Button variant="navy" size="sm" className="text-gold" asChild>
               <Link to="/booking">Book Session</Link>
             </Button>
-            <Button variant="navy" size="sm" className="text-gold shadow-[inset_0_1px_0_rgba(255,255,255,0.25),inset_0_-2px_4px_rgba(0,0,0,0.3),0_2px_4px_rgba(0,0,0,0.25)] border border-navy-light/40 hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.3),inset_0_-2px_4px_rgba(0,0,0,0.35),0_3px_6px_rgba(0,0,0,0.3)]" asChild>
+            <Button variant="navy" size="sm" className="text-gold" asChild>
               <Link to="/masterclass">Register Masterclass</Link>
             </Button>
           </div>

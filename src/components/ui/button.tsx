@@ -20,7 +20,7 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         // Brand specific variants
         gold: "bg-gradient-gold text-secondary-foreground font-bold shadow-gold hover:shadow-lg hover:-translate-y-1 hover:scale-[1.02]",
-        navy: "bg-gradient-hero text-primary-foreground font-bold shadow-brand hover:shadow-brand-lg hover:-translate-y-1",
+        navy: "bg-gradient-to-b from-[hsl(215_60%_34%)] via-[hsl(215_78%_21%)] to-[hsl(215_85%_15%)] text-primary-foreground font-bold border-t border-t-[hsl(215_50%_45%)/0.6] border-b-2 border-b-[hsl(215_90%_8%)] shadow-[0_3px_1px_rgba(0,0,0,0.35),0_6px_12px_rgba(0,0,0,0.25),inset_0_1px_2px_rgba(255,255,255,0.2)] hover:shadow-[0_4px_2px_rgba(0,0,0,0.4),0_8px_16px_rgba(0,0,0,0.3),inset_0_1px_2px_rgba(255,255,255,0.25)] hover:-translate-y-0.5 active:translate-y-0 active:shadow-[0_1px_1px_rgba(0,0,0,0.3),inset_0_2px_4px_rgba(0,0,0,0.3)]",
         "outline-gold": "border-2 border-gold bg-transparent text-gold hover:bg-gold hover:text-secondary-foreground",
         "outline-white": "border-2 border-primary-foreground bg-transparent text-primary-foreground hover:bg-primary-foreground hover:text-primary",
       },
