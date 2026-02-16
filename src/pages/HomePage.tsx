@@ -102,7 +102,7 @@ const HomePage = () => {
                 {stats.map((stat, index) => (
                   <div key={index} className="text-center sm:text-left">
                     <div className="font-serif text-3xl font-bold text-gold">{stat.value}</div>
-                    <div className="text-sm text-primary-foreground/70">{stat.label}</div>
+                    <div className="text-sm text-gold">{stat.label}</div>
                   </div>
                 ))}
               </div>
