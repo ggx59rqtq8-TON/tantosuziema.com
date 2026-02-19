@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Calendar, Users, TrendingUp, Mic, CheckCircle, Star, Play } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import heroImage from '@/assets/hero-susan.jpg';
+import heroImage from '@/assets/susan-hero-blue.jpg';
 import financeGrowth from '@/assets/finance-growth.jpg';
 import coachingSession from '@/assets/coaching-session.jpg';
 
@@ -113,7 +113,7 @@ const HomePage = () => {
                 <img 
                   src={heroImage} 
                   alt="Susan Nyakiamo - Personal Finance Coach" 
-                  className="w-full h-auto object-cover"
+                  className="w-full aspect-[4/5] object-cover object-top"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/50 to-transparent" />
               </div>
