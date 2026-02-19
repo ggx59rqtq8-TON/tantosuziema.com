@@ -9,7 +9,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
-import tantoLogo from '@/assets/tanto-logo-cropped.png';
+import tantoLogo from '@/assets/tanto-logo3.jpg';
 
 const navigation = [
   { name: 'Home', href: '/' },
