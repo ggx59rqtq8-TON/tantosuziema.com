@@ -57,7 +57,7 @@ const Header = () => {
                 <img 
                   src={tantoLogo} 
                   alt="Tantosuziema - Mind Your Money" 
-                  className="h-16 w-auto object-contain"
+                  className="h-20 w-auto object-contain"
                 />
               </div>
             </Link>
