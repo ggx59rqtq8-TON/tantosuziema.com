@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { Facebook, Instagram, Linkedin, Twitter, Youtube, Mail, Phone, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import tantoLogo from '@/assets/tanto-logo3.jpg';
 
 const Footer = () => {
   return (
@@ -38,9 +39,11 @@ const Footer = () => {
           {/* Brand Column */}
           <div className="lg:col-span-1">
             <Link to="/" className="inline-block mb-6">
-              <span className="font-serif text-3xl font-bold">
-                Tanto<span className="text-gold">suziema</span>
-              </span>
+              <img 
+                src={tantoLogo} 
+                alt="Tantosuziema - Mind Your Money" 
+                className="h-16 w-auto object-contain rounded-lg"
+              />
             </Link>
             <p className="text-primary-foreground/80 mb-6 leading-relaxed">
               Empowering individuals and businesses with financial wisdom. 
