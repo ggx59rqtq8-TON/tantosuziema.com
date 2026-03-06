@@ -338,7 +338,7 @@ Be creative. Find 5 Five minute favours and see how they change your world.`,
     author: 'Susan Nyakiamo',
     category: 'Lifestyle',
     readTime: '4 min read',
-    image: 'https://images.pexels.com/photos/45842/clasped-hands-comfort-hands-people-45842.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: blogMoneyLovePl2,
   },
   {
     id: 'what-is-the-purpose-of-working',
