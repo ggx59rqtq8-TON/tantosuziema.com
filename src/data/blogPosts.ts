@@ -454,7 +454,7 @@ The government has it right. Immediately you start working, you start contributi
     author: 'Susan Nyakiamo',
     category: 'Investment',
     readTime: '6 min read',
-    image: 'https://images.pexels.com/photos/3768131/pexels-photo-3768131.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: blogFreshBeginningPl2,
   },
   {
     id: 'save-the-date',
