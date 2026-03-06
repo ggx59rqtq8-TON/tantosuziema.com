@@ -423,7 +423,7 @@ What is stopping you from following their example? Go on beat the 'Mike Tyson' o
     author: 'Susan Nyakiamo',
     category: 'Mindset',
     readTime: '8 min read',
-    image: 'https://images.pexels.com/photos/3943716/pexels-photo-3943716.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: blogInvestPl2,
   },
   {
     id: 'i-am-too-old-to-retire',
