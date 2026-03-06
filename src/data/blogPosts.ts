@@ -492,7 +492,7 @@ To date, the most fun I have had with my finances is saving in a piggy bank. The
     author: 'Susan Nyakiamo',
     category: 'Finance',
     readTime: '5 min read',
-    image: 'https://images.pexels.com/photos/3943723/pexels-photo-3943723.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: blogCowieBank,
   },
 ];
 
