@@ -310,7 +310,7 @@ And you, what are you doing? Are you splitting rocks or building a cathedral? Th
     author: 'Susan Nyakiamo',
     category: 'Mindset',
     readTime: '5 min read',
-    image: 'https://images.pexels.com/photos/1178684/pexels-photo-1178684.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: blogMindMoneyPl2,
   },
   {
     id: 'the-five-minute-favour',
