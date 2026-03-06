@@ -6,6 +6,12 @@ import blogBudgetTogether from '@/assets/blog-budget-together.jpg';
 import blogMindYourMoney from '@/assets/blog-mind-your-money.jpg';
 import blogNeverWindowShop from '@/assets/blog-never-window-shop.jpeg';
 import blogValentineMoney from '@/assets/blog-valentine-money.jpg';
+import blogCowieBank from '@/assets/blog-cowie-bank.jpg';
+import blogMindMoneyPl2 from '@/assets/blog-mind-money-pl2.jpg';
+import blogMoneyLovePl2 from '@/assets/blog-money-love-pl2.jpg';
+import blogGrowIncomePl2 from '@/assets/blog-grow-income-pl2.jpg';
+import blogInvestPl2 from '@/assets/blog-invest-pl2.jpg';
+import blogFreshBeginningPl2 from '@/assets/blog-fresh-beginning-pl2.jpg';
 
 export interface BlogPost {
   id: string;
@@ -304,7 +310,7 @@ And you, what are you doing? Are you splitting rocks or building a cathedral? Th
     author: 'Susan Nyakiamo',
     category: 'Mindset',
     readTime: '5 min read',
-    image: 'https://images.pexels.com/photos/1178684/pexels-photo-1178684.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: blogMindMoneyPl2,
   },
   {
     id: 'the-five-minute-favour',
@@ -332,7 +338,7 @@ Be creative. Find 5 Five minute favours and see how they change your world.`,
     author: 'Susan Nyakiamo',
     category: 'Lifestyle',
     readTime: '4 min read',
-    image: 'https://images.pexels.com/photos/45842/clasped-hands-comfort-hands-people-45842.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: blogMoneyLovePl2,
   },
   {
     id: 'what-is-the-purpose-of-working',
@@ -359,7 +365,7 @@ Wouldn't that be lovely?`,
     author: 'Susan Nyakiamo',
     category: 'Finance',
     readTime: '5 min read',
-    image: 'https://images.pexels.com/photos/162540/hard-hat-firefighter-helmet-fireman-162540.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: blogGrowIncomePl2,
   },
   {
     id: 'never-go-window-shopping',
@@ -417,7 +423,7 @@ What is stopping you from following their example? Go on beat the 'Mike Tyson' o
     author: 'Susan Nyakiamo',
     category: 'Mindset',
     readTime: '8 min read',
-    image: 'https://images.pexels.com/photos/3943716/pexels-photo-3943716.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: blogInvestPl2,
   },
   {
     id: 'i-am-too-old-to-retire',
@@ -448,7 +454,7 @@ The government has it right. Immediately you start working, you start contributi
     author: 'Susan Nyakiamo',
     category: 'Investment',
     readTime: '6 min read',
-    image: 'https://images.pexels.com/photos/3768131/pexels-photo-3768131.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: blogFreshBeginningPl2,
   },
   {
     id: 'save-the-date',
@@ -486,7 +492,7 @@ To date, the most fun I have had with my finances is saving in a piggy bank. The
     author: 'Susan Nyakiamo',
     category: 'Finance',
     readTime: '5 min read',
-    image: 'https://images.pexels.com/photos/3943723/pexels-photo-3943723.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: blogCowieBank,
   },
 ];
 
