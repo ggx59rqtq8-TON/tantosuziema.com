@@ -6,6 +6,12 @@ import blogBudgetTogether from '@/assets/blog-budget-together.jpg';
 import blogMindYourMoney from '@/assets/blog-mind-your-money.jpg';
 import blogNeverWindowShop from '@/assets/blog-never-window-shop.jpeg';
 import blogValentineMoney from '@/assets/blog-valentine-money.jpg';
+import blogCowieBank from '@/assets/blog-cowie-bank.jpg';
+import blogMindMoneyPl2 from '@/assets/blog-mind-money-pl2.jpg';
+import blogMoneyLovePl2 from '@/assets/blog-money-love-pl2.jpg';
+import blogGrowIncomePl2 from '@/assets/blog-grow-income-pl2.jpg';
+import blogInvestPl2 from '@/assets/blog-invest-pl2.jpg';
+import blogFreshBeginningPl2 from '@/assets/blog-fresh-beginning-pl2.jpg';
 
 export interface BlogPost {
   id: string;
