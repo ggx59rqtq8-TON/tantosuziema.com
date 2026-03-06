@@ -365,7 +365,7 @@ Wouldn't that be lovely?`,
     author: 'Susan Nyakiamo',
     category: 'Finance',
     readTime: '5 min read',
-    image: 'https://images.pexels.com/photos/162540/hard-hat-firefighter-helmet-fireman-162540.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: blogGrowIncomePl2,
   },
   {
     id: 'never-go-window-shopping',
