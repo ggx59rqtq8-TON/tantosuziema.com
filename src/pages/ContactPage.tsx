@@ -44,8 +44,8 @@ const ContactPage = () => {
     {
       icon: Phone,
       title: 'Phone',
-      value: '+254 700 000 000',
-      link: 'tel:+254700000000'
+      value: '+254 721 454 162',
+      link: 'tel:+254721454162'
     },
     {
       icon: Mail,
@@ -146,7 +146,7 @@ const ContactPage = () => {
                     asChild
                   >
                     <a 
-                      href="https://wa.me/254700000000?text=Hello,%20I'm%20interested%20in%20your%20services" 
+                      href="https://wa.me/254721454162?text=Hello,%20I'm%20interested%20in%20your%20services" 
                       target="_blank" 
                       rel="noopener noreferrer"
                     >
