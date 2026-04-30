@@ -134,8 +134,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-gold shrink-0" />
-                <a href="tel:+254700000000" className="text-primary-foreground/80 hover:text-gold transition-colors">
-                  +254 700 000 000
+                <a href="tel:+254721454162" className="text-primary-foreground/80 hover:text-gold transition-colors">
+                  +254 721 454 162
                 </a>
               </li>
               <li className="flex items-start gap-3">
@@ -152,7 +152,7 @@ const Footer = () => {
             </ul>
             <Button variant="gold" className="mt-6" asChild>
               <a 
-                href="https://wa.me/254700000000" 
+                href="https://wa.me/254721454162" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >

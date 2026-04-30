@@ -309,7 +309,7 @@ const BookingPage = () => {
                 asChild
               >
                 <a 
-                  href="https://wa.me/254700000000?text=Hi,%20I'd%20like%20to%20book%20a%20coaching%20session" 
+                  href="https://wa.me/254721454162?text=Hi,%20I'd%20like%20to%20book%20a%20coaching%20session" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
