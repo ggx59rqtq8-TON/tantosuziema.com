@@ -138,11 +138,16 @@ const Footer = () => {
                   +254 700 000 000
                 </a>
               </li>
-              <li className="flex items-center gap-3">
-                <Mail className="h-5 w-5 text-gold shrink-0" />
-                <a href="mailto:info@tantosuziema.com" className="text-primary-foreground/80 hover:text-gold transition-colors">
-                  info@tantosuziema.com
-                </a>
+              <li className="flex items-start gap-3">
+                <Mail className="h-5 w-5 text-gold shrink-0 mt-0.5" />
+                <div className="flex flex-col">
+                  <a href="mailto:info@tantosuziema.com" className="text-primary-foreground/80 hover:text-gold transition-colors">
+                    info@tantosuziema.com
+                  </a>
+                  <a href="mailto:susan@tantosuziema.com" className="text-primary-foreground/80 hover:text-gold transition-colors">
+                    susan@tantosuziema.com <span className="text-xs text-gold">(Helpline)</span>
+                  </a>
+                </div>
               </li>
             </ul>
             <Button variant="gold" className="mt-6" asChild>

@@ -54,6 +54,12 @@ const ContactPage = () => {
       link: 'mailto:info@tantosuziema.com'
     },
     {
+      icon: Mail,
+      title: 'Helpline Email',
+      value: 'susan@tantosuziema.com',
+      link: 'mailto:susan@tantosuziema.com'
+    },
+    {
       icon: MapPin,
       title: 'Location',
       value: 'Nairobi, Kenya',
