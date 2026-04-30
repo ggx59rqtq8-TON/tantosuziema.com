@@ -17,7 +17,6 @@ const navigation = [
   { name: 'About', href: '/about' },
   { name: 'Testimonials', href: '/testimonials' },
   { name: 'Blog', href: '/blog' },
-  { name: 'Shop', href: '/shop' },
   { name: 'Contact', href: '/contact' },
 ];
 
@@ -116,6 +115,9 @@ const Header = () => {
             </Button>
             <Button variant="navy" size="sm" className="text-gold" asChild>
               <Link to="/masterclass">Register Masterclass</Link>
+            </Button>
+            <Button variant="navy" size="sm" className="text-gold" asChild>
+              <Link to="/shop">Shop</Link>
             </Button>
             <CartDrawer />
           </div>
