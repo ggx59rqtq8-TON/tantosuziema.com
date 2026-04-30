@@ -141,19 +141,34 @@ const ContactPage = () => {
                       <div className="text-sm text-muted-foreground">Chat with us on WhatsApp</div>
                     </div>
                   </div>
-                  <Button 
-                    className="w-full bg-green-500 hover:bg-green-600 text-white" 
-                    asChild
-                  >
-                    <a 
-                      href="https://wa.me/254721454162?text=Hello,%20I'm%20interested%20in%20your%20services" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
+                  <div className="flex flex-col gap-2">
+                    <Button 
+                      className="w-full bg-green-500 hover:bg-green-600 text-white" 
+                      asChild
                     >
-                      Chat on WhatsApp
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </a>
-                  </Button>
+                      <a 
+                        href="https://wa.me/254721454162?text=Hello,%20I'm%20interested%20in%20your%20services" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                      >
+                        Chat with Info Team
+                        <ArrowRight className="ml-2 h-4 w-4" />
+                      </a>
+                    </Button>
+                    <Button 
+                      className="w-full bg-green-500 hover:bg-green-600 text-white" 
+                      asChild
+                    >
+                      <a 
+                        href="https://wa.me/254721454162?text=Hello%20Susan,%20I'd%20like%20help%20via%20the%20helpline" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                      >
+                        Chat with Susan (Helpline)
+                        <ArrowRight className="ml-2 h-4 w-4" />
+                      </a>
+                    </Button>
+                  </div>
                 </CardContent>
               </Card>
             </div>
