@@ -50,19 +50,19 @@ const Footer = () => {
               Nothing is as natural as a fresh beginning.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="p-2 rounded-full bg-primary-foreground/10 hover:bg-gold hover:text-secondary-foreground transition-colors">
+              <a href="https://www.facebook.com/TantoSuziema.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="p-2 rounded-full bg-primary-foreground/10 hover:bg-gold hover:text-secondary-foreground transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="p-2 rounded-full bg-primary-foreground/10 hover:bg-gold hover:text-secondary-foreground transition-colors">
+              <a href="https://www.instagram.com/tantosuziema" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="p-2 rounded-full bg-primary-foreground/10 hover:bg-gold hover:text-secondary-foreground transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="p-2 rounded-full bg-primary-foreground/10 hover:bg-gold hover:text-secondary-foreground transition-colors">
+              <a href="https://www.linkedin.com/in/tantosuziema" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="p-2 rounded-full bg-primary-foreground/10 hover:bg-gold hover:text-secondary-foreground transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="p-2 rounded-full bg-primary-foreground/10 hover:bg-gold hover:text-secondary-foreground transition-colors">
+              <a href="https://twitter.com/tantosuziema" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="p-2 rounded-full bg-primary-foreground/10 hover:bg-gold hover:text-secondary-foreground transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="p-2 rounded-full bg-primary-foreground/10 hover:bg-gold hover:text-secondary-foreground transition-colors">
+              <a href="https://www.youtube.com/@tantosuziema" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="p-2 rounded-full bg-primary-foreground/10 hover:bg-gold hover:text-secondary-foreground transition-colors">
                 <Youtube className="h-5 w-5" />
               </a>
             </div>
