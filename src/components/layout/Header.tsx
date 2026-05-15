@@ -110,7 +110,7 @@ const Header = () => {
           </div>
 
           {/* CTA Buttons */}
-          <div className="hidden lg:flex items-center gap-4">
+          <div className="hidden lg:flex items-center gap-4 ml-8">
             <Button variant="navy" size="sm" className="text-gold" asChild>
               <Link to="/booking">Book Session</Link>
             </Button>
@@ -118,10 +118,10 @@ const Header = () => {
               <Link to="/masterclass">Register Masterclass</Link>
             </Button>
             <Button variant="navy" size="sm" className="text-gold" asChild>
-              <Link to="/shop">Shop</Link>
+              <Link to={contactNav.href}>{contactNav.name}</Link>
             </Button>
             <Button variant="navy" size="sm" className="text-gold" asChild>
-              <Link to={contactNav.href}>{contactNav.name}</Link>
+              <Link to="/shop">Shop</Link>
             </Button>
             <CartDrawer />
           </div>
