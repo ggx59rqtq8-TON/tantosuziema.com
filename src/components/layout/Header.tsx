@@ -189,6 +189,15 @@ const Header = () => {
                   {item.name}
                 </Link>
               ))}
+              <Link
+                to={contactNav.href}
+                className={`text-base font-medium py-2 transition-colors hover:text-gold ${
+                  location.pathname === contactNav.href ? 'text-gold' : 'text-foreground'
+                }`}
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                {contactNav.name}
+              </Link>
               
               <div className="flex flex-col gap-3 pt-4 border-t border-border">
                 <Button variant="outline" asChild>
