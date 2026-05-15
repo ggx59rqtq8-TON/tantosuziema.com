@@ -17,8 +17,9 @@ const navigation = [
   { name: 'About', href: '/about' },
   { name: 'Testimonials', href: '/testimonials' },
   { name: 'Blog', href: '/blog' },
-  { name: 'Contact', href: '/contact' },
 ];
+
+const contactNav = { name: 'Contact', href: '/contact' };
 
 const servicesSubItems = [
   { name: 'All Services', href: '/services' },
@@ -119,6 +120,9 @@ const Header = () => {
             <Button variant="navy" size="sm" className="text-gold" asChild>
               <Link to="/shop">Shop</Link>
             </Button>
+            <Button variant="navy" size="sm" className="text-gold" asChild>
+              <Link to={contactNav.href}>{contactNav.name}</Link>
+            </Button>
             <CartDrawer />
           </div>
 
@@ -185,6 +189,15 @@ const Header = () => {
                   {item.name}
                 </Link>
               ))}
+              <Link
+                to={contactNav.href}
+                className={`text-base font-medium py-2 transition-colors hover:text-gold ${
+                  location.pathname === contactNav.href ? 'text-gold' : 'text-foreground'
+                }`}
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                {contactNav.name}
+              </Link>
               
               <div className="flex flex-col gap-3 pt-4 border-t border-border">
                 <Button variant="outline" asChild>
