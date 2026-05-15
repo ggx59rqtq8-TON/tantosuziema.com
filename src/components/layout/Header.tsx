@@ -17,8 +17,9 @@ const navigation = [
   { name: 'About', href: '/about' },
   { name: 'Testimonials', href: '/testimonials' },
   { name: 'Blog', href: '/blog' },
-  { name: 'Contact', href: '/contact' },
 ];
+
+const contactNav = { name: 'Contact', href: '/contact' };
 
 const servicesSubItems = [
   { name: 'All Services', href: '/services' },
@@ -118,6 +119,9 @@ const Header = () => {
             </Button>
             <Button variant="navy" size="sm" className="text-gold" asChild>
               <Link to="/shop">Shop</Link>
+            </Button>
+            <Button variant="navy" size="sm" className="text-gold" asChild>
+              <Link to={contactNav.href}>{contactNav.name}</Link>
             </Button>
             <CartDrawer />
           </div>
